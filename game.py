@@ -13,7 +13,6 @@ class Game:
         else:
             return GameResult(False, 0, 0)
 
-
     def assert_illegal_value(self, guessNumber):
         if guessNumber is None:
             raise TypeError()
